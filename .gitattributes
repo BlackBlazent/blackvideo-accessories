@@ -1,0 +1,12 @@
+# Set default line ending behavior for all text files
+* text=auto
+
+# Force LF line endings for shell scripts (Unix standard)
+*.sh text eol=lf
+
+# Force CRLF line endings for Windows batch files
+*.bat text eol=crlf
+
+# Mark images as binary (no diffs or EOL conversion)
+*.png binary
+*.jpg binary
